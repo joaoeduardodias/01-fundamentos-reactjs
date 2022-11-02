@@ -10,6 +10,8 @@
 
   --green-300: #00b37e;
   --green-500: #00875f;
+
+  --red-500: #f75a68;
 }
 :focus {
   outline: transparent;
@@ -17,10 +19,9 @@
 }
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,8 +30,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-  font-family: 'Roboto', sans-serif;
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
