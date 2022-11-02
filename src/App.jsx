@@ -1,8 +1,9 @@
 import styles from './App.module.css'
 import { Header } from './components/Header'
+import { Post } from './components/Post'
 import { Sidebar } from './components/Sidebar'
 import './global.css'
-import { Post } from './Post'
+
 export function App() {
 
   return (
@@ -13,17 +14,14 @@ export function App() {
        
         <main>
         <Post
-      author="João Dias"
-      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae doloribus nam sit ad,
-               aspernatur rem, reiciendis dicta veritatis adipisci eaque aperiam fugiat! Error obcaecati praesentium in 
-               sapiente temporibus aliquam."    
-    />
-    <Post
-      author="João Dias"
-      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae doloribus nam sit ad,
-               aspernatur rem, reiciendis dicta veritatis adipisci eaque aperiam fugiat! Error obcaecati praesentium in 
-               sapiente temporibus aliquam."    
-    />
+         author="João Dias"
+         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae doloribus nam sit."    
+        />
+        <Post
+         author="João Dias"
+         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti recusandae doloribus nam sit."    
+        />
+   
         </main>
       </div>
    
